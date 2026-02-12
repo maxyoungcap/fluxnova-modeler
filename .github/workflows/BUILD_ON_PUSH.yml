@@ -2,7 +2,7 @@ name: BUILD_ON_PUSH
 on:
   push:
     branches:
-    - main
+    - develop
 jobs:
   build:
     strategy:
